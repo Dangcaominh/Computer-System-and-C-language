@@ -2,10 +2,10 @@
     ; Viết chương trình dùng ngôn ngữ giả lập LC-3 tìm giá trị Min, Max của 3 số và 
     ; lưu vào thanh ghi R3, R4 tương ứng.
 
-    .ORIG 0x3050
+    .ORIG x3050
 
-    LEA R0, INPUT_X
-    PUTS
+        LEA R0, INPUT_X
+        PUTS
 
     GETC
     ST R0, STORE_R0
