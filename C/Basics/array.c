@@ -26,4 +26,5 @@ int main()
         printf("%d ", y[i]);
     }
     free(y);
+    return 0;
 }
