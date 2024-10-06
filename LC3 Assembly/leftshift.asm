@@ -1,6 +1,8 @@
 ; Perform left shift in LC3 Assembly
 ; Input: Nhập vào dữ liệu dưới dạng nhị phân
 ; Output: Left shift của số đó được lưu ở R2
+; Author: dangcaominh
+; Revision: 06-10-2024
 
 .ORIG x3050
     ; Prompt the user to enter a string
